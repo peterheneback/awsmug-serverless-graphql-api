@@ -28,7 +28,7 @@ export class RDSStack extends Stack {
   
   readonly postgresRDSInstance: IDatabaseInstance;
   readonly rdsDbUser: string = process.env.TYPEORM_USERNAME || "serverless";
-  readonly rdsDbName: string = process.env.TYPEORM_DATABASE || "awsmeetupgroup";
+  readonly rdsDbName: string = process.env.TYPEORM_DATABASE || "pipelinedemo";
   readonly rdsPort: number = 5432;
   
   
